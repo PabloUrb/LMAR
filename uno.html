@@ -9,26 +9,40 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+        <script src="Ejercicios.js" type="text/javascript"></script>
+
     </head>
-    <body><div><h1>ejercicio uno</h1>
+    <body><div><h1>ejercicio 1</h1>
 
             Escribe un número: <input type="number" id="numero">
             <span onclick="numero1()">Click Ej1</span>
             <script>
-                function numero1(){
-                var numero = document.getElementById("numero").value;
-                
-                for (var i=0; numero >= i; i++) {
-                    if (i % 2 === 0) {
-                        console.log(i);
+                function numero1() {
+                    var numero = document.getElementById("numero").value;
+
+                    for (var i = 0; numero >= i; i++) {
+                        if (i % 2 === 0) {
+                            console.log(i);
+                        }
                     }
                 }
-            }
             </script>
         </div>
-        <div><h1>ejercicio dos</h1><script>
+        <div><h1>ejercicio 2</h1>
 
-            </script></div>
+            Escribe un número: <input type = "number" id = "numero2" >
+            <span onclick="numero2()"> click Ej2</span>
+            <div id="resultado"></div>
+
+        </div>
+        <div><h1>Ejercicio 3</h1>
+            Escribe el primer número: <input type="number" id="numero3"><br>
+            Escribe el segundo número: <input type="number" id="numero4">
+            <span onclick="numero3()"> click Ej3</span>
+        </div>
+        <div><h1>Ejercicio 4</h1>
+            Escribe el día de la semana: <input type="text" id="dia">
+            <span onclick="numero4()"> click Ej4</span>
+        </div>
     </body>
 </html>
