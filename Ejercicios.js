@@ -12,15 +12,39 @@ function numero2() {
 function numero3() {
     var num1 = document.getElementById("numero3").value;
     var num2 = document.getElementById("numero4").value;
-    if (num1>num2){
+    if (num1 > num2) {
         console.log(num1);
-    }else if(num2>num1){
+    } else if (num2 > num1) {
         console.log(num2);
-    }else{
+    } else {
         console.log("empate");
     }
 }
 
-function numero4(){
-    
+function numero4() {
+    var dia = document.getElementById("dia").value;
+    switch (dia) {
+        case "lunes":
+            day = "0";
+            break;
+        case "martes":
+            day = "1";
+            break;
+        case "miercoles":
+            day = "2";
+            break;
+        case "jueves":
+            day = "3";
+            break;
+        case "viernes":
+            day = "4";
+            break;
+        case "sabado":
+            day = "5";
+            break;
+        case "domingo":
+            day = "6";
+    }
+    console.log(day);
+
 }
