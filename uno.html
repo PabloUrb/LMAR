@@ -9,20 +9,26 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
     </head>
-    <body><div><a>ejercicio uno</a>
-            
-        <script>  
-            var numero = Document.getElementbyId();
-            for(var i=0; numero >= i; i++){
-                if(i%2===0){
-                    alert(i);
+    <body><div><h1>ejercicio uno</h1>
+
+            Escribe un número: <input type="number" id="numero">
+            <span onclick="numero1()">Click Ej1</span>
+            <script>
+                function numero1(){
+                var numero = document.getElementById("numero").value;
+                
+                for (var i=0; numero >= i; i++) {
+                    if (i % 2 === 0) {
+                        console.log(i);
+                    }
                 }
             }
-        </script>
+            </script>
         </div>
-        <div><a>ejercicio dos</a><script>
-            
-        </script></div>
+        <div><h1>ejercicio dos</h1><script>
+
+            </script></div>
     </body>
 </html>
