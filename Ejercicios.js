@@ -46,5 +46,18 @@ function numero4() {
             day = "6";
     }
     console.log(day);
-
+}
+ var rand = Math.floor((Math.random() * 10) + 1);
+function numero5(){
+   var num= document.getElementById("numero5").value;
+   if(num == rand){
+       console.log("ese era!!!");
+   }else if( num != rand){
+       console.log("NO era ese, lo siento");
+       if(rand>num){
+           console.log("el random es mayor que el que has puesto");
+       }else{
+           console.log("el random es menor que el que has puesto");
+       }
+   }
 }
