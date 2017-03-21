@@ -78,3 +78,19 @@ function restar(){
     var num3 = num1 - num2;
     console.log("el resultado de restar "+num1+" més "+num2+" es "+num3+"");
 } 
+
+function multiplicar(){
+    var number = document.getElementById("numero10").value;
+    var number2 = document.getElementById("numero11").value;
+    number = parseInt(number);
+    number2 = parseInt(number);
+    var div = document.getElementById("resultado");
+    var a = 1;
+    var HTML = "<ul>";
+    for (var i = 0; i <= number2; i++) {
+        a=a*number;
+        HTML += "<li>" + a + "</li>";
+        
+    }
+    div.innerHTML = HTML + "</ul>";
+}

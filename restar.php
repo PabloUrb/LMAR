@@ -7,6 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        <script src="Ejercicios.js" type="text/javascript"></script>
         <title></title>
     </head>
     <body>
