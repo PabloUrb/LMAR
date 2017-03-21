@@ -61,3 +61,20 @@ function numero5(){
        }
    }
 }
+function sumar(){
+    var num1 = document.getElementById("numero6").value;
+    var num2 = document.getElementById("numero7").value;
+    num1=parseInt(num1);
+    num2=parseInt(num2);
+    var num3 = num1 + num2;
+    console.log("el resultado de sumar "+num1+" més "+num2+" es "+num3+"");
+} 
+
+function restar(){
+    var num1 = document.getElementById("numero8").value;
+    var num2 = document.getElementById("numero9").value;
+    num1=parseInt(num1);
+    num2=parseInt(num2);
+    var num3 = num1 - num2;
+    console.log("el resultado de restar "+num1+" més "+num2+" es "+num3+"");
+} 
